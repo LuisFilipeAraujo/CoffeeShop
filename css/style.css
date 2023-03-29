@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap');
 
+/*Ao definir variáveis CSS globais usando a propriedade :root, você pode 
+criar valores que podem ser usados em vários lugares, tornando seu 
+código CSS mais modular e fácil de manter. Essas variáveis são definidas 
+como propriedades CSS personalizadas (custom properties) usando a 
+sintaxe --nome-da-variavel. */
 
+:root{
+    --main-color:#d3ad7f;
+    --black:#13131a;
+    --bg:#010103;
+    --border: .1rem solid rgba(255,255,255,.3);
+
+}
 
 *{
     font-family: 'Roboto', sans-serif;
