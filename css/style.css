@@ -25,3 +25,43 @@ sintaxe --nome-da-variavel. */
     transition: .2s linear;
 
 }
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-padding-top: 9rem;
+   scroll-behavior: smooth; 
+}
+
+/*-webkit-scrollbar é uma propriedade CSS personalizada (custom property) 
+que permite personalizar a aparência das barras de rolagem em navegadores da
+Web que usam o motor de renderização WebKit, como o Google Chrome e o Safari. */
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    width: #fff;
+    border-radius: 5rem;
+}
+
+body{
+    background: var(--bg);
+}
+
+.header{
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+}
