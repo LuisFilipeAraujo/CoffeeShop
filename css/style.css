@@ -54,6 +54,21 @@ body{
     background: var(--bg);
 }
 
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color:#fff;
+    background: var(--main-color);
+    cursor: pointer;
+}
+
+.btn:hover{
+    letter-spacing: .2rem;
+
+}
+
 .header{
     background: var(--bg);
     display: flex;
@@ -169,4 +184,9 @@ body{
 .header .cart-items-container .cart-item .content .price{
     font-size: 1.5rem;
     color: var(--main-color);
+}
+
+/*making the button "checkout now" ocupy all the cointer of the shopping cart*/
+.header .cart-items-container .btn{
+    width: 100%;
 }
