@@ -147,3 +147,16 @@ body{
     height: 100px;
     
 }
+
+.header .cart-items-container .cart-item .fa-times{
+    position: absolute;
+    top: 1rem; right:1rem;
+    font-size: 2rem;
+    color: var(--black);
+
+}
+
+/*hover for the x buttons for products on the cart on the right*/
+.header .cart-items-container .cart-item .fa-times:hover{
+    color: var(--main-color);
+}
