@@ -124,3 +124,26 @@ body{
     margin-right: 1.5rem;
     color:var(--black);
 }
+
+.header .cart-items-container{
+    position:absolute;
+    top: 100%; right:0;
+    height: calc(100vh - 9.5rem);
+    width: 35rem;;
+    background: #fff;
+    padding: 0 1.55rem;
+}
+
+.header .cart-items-container .cart-item{
+    position: relative;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.cart-items-container img{
+    width: 100px;
+    height: 100px;
+    
+}
